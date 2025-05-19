@@ -90,7 +90,7 @@ def main():
     
     while True:
         monitor.check_price(url)
-        time.sleep(3600)  # 1 hora
+        time.sleep(30)  # 1 hora
 
 if _name_ == "_main_":
     main()
